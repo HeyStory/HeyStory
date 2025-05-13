@@ -1,0 +1,72 @@
+{
+  "projectContext": {
+    "summary": "HeyStory is a Next.js application using tRPC, Drizzle ORM, and PostgreSQL. It follows modern React practices with TypeScript.",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "tRPC",
+      "Drizzle ORM",
+      "PostgreSQL",
+      "TailwindCSS",
+      "Stylus",
+      "Zustand",
+      "Shadcn UI"
+    ],
+    "architecture": "The application follows the T3 stack architecture with Next.js App Router, tRPC for type-safe APIs, and Drizzle ORM for database access."
+  },
+  "codeStyleRules": {
+    "typescript": {
+      "quotes": "single",
+      "semicolons": false,
+      "indentation": 2,
+      "componentStyle": "function",
+      "importOrder": [
+        "react",
+        "next",
+        "external libraries",
+        "~/",
+        "relative"
+      ]
+    },
+    "tailwind": {
+      "preferClasses": true,
+      "customClasses": "src/styles/globals.css"
+    },
+    "componentStructure": {
+      "order": [
+        "imports",
+        "types",
+        "helpers",
+        "main component",
+        "sub-components"
+      ]
+    }
+  },
+  "assistantGuidelines": {
+    "doFollow": [
+      "Use functional components with hooks",
+      "Follow the established directory structure",
+      "Use named exports for components",
+      "Follow kebab-case for files and directories",
+      "Extract reusable logic to custom hooks",
+      "Use Zustand for global state management",
+      "Prefer server components over client components",
+      "Use Tailwind for utility classes and Stylus for component-specific styles"
+    ],
+    "dontFollow": [
+      "Don't use class components",
+      "Avoid default exports for components",
+      "Don't use semicolons in TypeScript code",
+      "Don't use 'any' type",
+      "Don't create deeply nested components",
+      "Don't mix styling approaches within a component",
+      "Don't add @apply directives in Tailwind"
+    ]
+  },
+  "docFiles": [
+    ".cursor/overview.md",
+    ".cursor/todo.md",
+    ".cursor/rule.md"
+  ]
+} 
