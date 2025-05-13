@@ -1,5 +1,10 @@
 .
 ├── public
+│   ├── images
+│   │   ├── archive.jpeg
+│   │   ├── cards.jpeg
+│   │   ├── homepage.jpeg
+│   │   └── logo.jpeg
 │   └── favicon.ico
 ├── src
 │   ├── app
@@ -11,6 +16,8 @@
 │   │   │   └── post.tsx
 │   │   ├── layout.tsx
 │   │   └── page.tsx
+│   ├── lib
+│   │   └── utils.ts
 │   ├── server
 │   │   ├── api
 │   │   │   ├── routers
@@ -27,6 +34,7 @@
 │   │   ├── react.tsx
 │   │   └── server.ts
 │   └── env.js
+├── components.json
 ├── drizzle.config.ts
 ├── eslint.config.js
 ├── next.config.js
@@ -40,4 +48,4 @@
 ├── start-database.sh
 └── tsconfig.json
 
-14 directories, 27 files
+16 directories, 33 files
