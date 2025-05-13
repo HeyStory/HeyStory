@@ -28,11 +28,13 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"],
+      "@/*": ["./src/*"],
       "@components/*": ["./src/app/_components/*"],
       "@lib/*": ["./src/app/lib/*"],
       "@api/*": ["./src/app/api/*"],
       "@styles/*": ["./src/styles/*"],
       "@server/*": ["./src/server/*"],
+      "@store/*": ["./src/store/*"]
     }
   },
   "include": [

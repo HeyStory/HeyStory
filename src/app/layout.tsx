@@ -5,6 +5,8 @@ import { Geist } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 
 import { TRPCReactProvider } from "~/trpc/react";
+import { ThemeProvider } from "@/context/ThemeContext";
+import { SidebarProvider } from "@/context/SidebarContext";
 
 export const metadata: Metadata = {
   title: "HeyStory",
@@ -25,7 +27,11 @@ export default function RootLayout({
       <body>
         <TRPCReactProvider>
           <ClerkProvider>
-            {children}
+            <ThemeProvider>
+              <SidebarProvider>
+                {children}
+              </SidebarProvider>
+            </ThemeProvider>
           </ClerkProvider>
         </TRPCReactProvider>
       </body>

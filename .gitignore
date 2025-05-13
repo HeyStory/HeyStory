@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+# local files
+/progress
+.cursor
+scripts
+
 # database
 /prisma/db.sqlite
 /prisma/db.sqlite-journal
