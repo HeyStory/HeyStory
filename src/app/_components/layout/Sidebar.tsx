@@ -44,7 +44,7 @@ export function Sidebar() {
       
       {/* Toggle Button */}
       <button 
-        className="absolute top-6 -right-3 rounded-full bg-primary text-primary-foreground p-1 shadow-md border border-primary-foreground/20"
+        className="absolute top-6 -right-3 rounded-full bg-white text-primary p-1.5 shadow-md border border-border hover:bg-gray-100 transition-colors z-30"
         onClick={toggleSidebar}
         aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
       >

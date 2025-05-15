@@ -55,6 +55,7 @@
       "Use Tailwind for utility classes and Stylus for component-specific styles"
     ],
     "dontFollow": [
+      "Don't run 'npm run dev' or 'npm run build' in the terminal",
       "Don't use class components",
       "Avoid default exports for components",
       "Don't use semicolons in TypeScript code",
