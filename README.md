@@ -1,29 +1,39 @@
-# Create T3 App
+# HeyStory
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A digital platform for preserving and sharing your family's most meaningful memories.
 
-## What's next? How do I make an app with this?
+## Overview
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+HeyStory is a secure, AI-powered space where families can easily capture, preserve, and share their legacies. Whether it's childhood tales from grandparents, detailed family trees, or photos from special celebrations, HeyStory ensures that these moments are never forgotten and always accessible to future generations.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## The Problem
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Valuable family stories, photos, and memories are lost over time and often remain unshared across generations. We live in a time where moments are shared instantly, but rarely saved meaningfully. Families today lack a unified, meaningful way to document and revisit their collective history.
 
-## Learn More
+## Features
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- **Story Creation**: Record meaningful stories in audio, video, or text
+- **Family Tree Builder**: Visualize your family tree and explore your roots
+- **Events Timeline**: Track and celebrate special events that matter to your family
+- **AI Assistance**: Organize, connect, and enrich content for lasting value
+- **Secure Storage**: Private and secure storage for your family's memories
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Technology Stack
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- **Frontend**: Next.js, React, TypeScript
+- **Styling**: Tailwind CSS, Stylus modules
+- **UI Components**: Shadcn UI, Radix UI
+- **State Management**: Zustand, React Context API
+- **Backend**: tRPC, Drizzle ORM
+- **Authentication**: Clerk
+- **AI Integration**: Coming soon
 
-## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## License
+
+[MIT License](LICENSE)
+
+## Acknowledgments
+
+- Created with [T3 Stack](https://create.t3.gg/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
